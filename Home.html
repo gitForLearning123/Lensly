@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-left">
+           <a href="Home.html"><img src="Assets/WhatsApp Image 2024-12-10 at 14.28.46_3e543895.jpg" alt=""></a> 
+        </nav>
+        <nav class="nav-right">
+            <ul class="ulheader">
+                <li class="li-h home-h"><a href="#">Home</a></li>
+                <li class="li-h photo-h"><a href="Photographer.html">Photographer</a></li>
+                <li class="li-h about-h"><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="sb-container">
+            <button onclick="openSbPopUp()">Subscribe</button>
+        </div>  
+    </header>
+     <main>
+
+        <div class="top-main">
+
+            <div class="bg-head">
+                <img src="Assets/photographer-scaled.jpg" alt="">
+                <img src="Assets/IMG_6977-e-1100x619.jpg" alt="">
+                <div class="overlay-head">
+                    <div class="title">
+                        <p><span class="span1">Welcome to</span><span class="span2">Lensly</span></p> 
+                        <div class="title-desc">
+                            <p>Capture your best moment up to 4K</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+       
+        <div class="mid-main">
+          <div class="title-mid">
+            <p><span class="span1">Explore</span><span class="span2">Photos</span></p> 
+          </div>
+          <div class="searchbar">
+            <input type="text" class="search-bar" placeholder="Search...">
+          </div>  
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="Assets/thumb-1920-1350069.jpeg" alt="">
+                    <div class="img-hastag">
+                        <p>#fantasy #panorama</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="Assets/imageedit_4_6122926368.jpg" download>Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/5fQUPDl.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#fantasy #panorama</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="Assets/imageedit_4_8812699608.jpg" download>Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/4k-beautiful-colorful-abstract-wallpaper-photo.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#fantasy #panorama</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="Assets/imageedit_6_3875886305.jpg" download>Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <img src="Assets/Iam groot_hd.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#cartoon #marvel</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="Assets/">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/naruto-vs-sasuke-epic-battle-desktop-wallpaper-4k-scaled.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#anime #fight #narutosasuke</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/nier-automata-2b-desktop-wallpaper-preview.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#anime #nier #fighter</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+
+                
+                <div class="card">
+                    <img src="Assets/family-7392843_640.jpg" alt="" >
+                    <div class="img-hastag">
+                        <p>#family #scenery #sunside</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/kimi-no-na-wa-b5qwq6u6ea6qfd94.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#anime #kiminonawa #romance</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/niagara-falls-m1x3s6i65eozg2q9.jpg" alt="">
+                    <div class="img-hastag">
+                        <p>#panorama #scenery #waterfalls</p>
+                    </div> 
+                    <div class="button-container">
+                        <a href="">Download Free (480p)</a>
+                        <Button onclick="openSbPopUp()">Download Premium (4K)</Button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-popUp" id="container-popUp">
+            <div class="popup">
+                
+                <div class="hori">
+                    <h1>Subscribe For Resolution Up to 4k</h1>
+                    <button class="close-icon1" onclick="closePopUp()" id="close-icon1">
+                       <i class="bi bi-x"></i>
+                    </button>
+                 </div>
+                 <div class="popup-detail">
+                    <div class="img-container">
+                        <img src="Assets/imageedit_2_7733680482.jpg" alt="">
+                        <img src="Assets/—Pngtree—yellow memphis right arrow_5407628.png" alt="">
+                        <img src="Assets/photographer-scaled.jpg" alt="">
+                    </div>
+                    <div class="subs-price">
+                        <p> <span class="span3"> Only Rp 50.000</span><span class="span4">/Month</span></p>
+                    </div>
+                    <div class="popup-button-container">
+                        <a href="Home1.html">Subscribe</a>
+                    </div>
+                 </div>
+            
+            </div>
+        </div>
+        <div class="bot-main">
+
+            <div class="title">
+                <p><span class="span1">Customer</span><span class="span2">Testimony</span></p> 
+            </div>
+
+
+            <div class="testy-container">
+
+                <div class="card-testy">
+                    <img src="Testimony/360_F_809104099_I2zrHseniV5gP4zQxZYwZQA7x34iPCmT.jpg" alt="">
+                    <div class="testy">
+                        <p>" Suka banget sama webnya, fotografer yang diesediain bener-bener profesional dan foto yang dihasilkan kualitasnya bagus banget "</p>
+                    </div>
+                   
+                </div>
+
+                <div class="card-testy">
+                    <img src="Testimony/Mr-Choi-Won-Hyuk-500x500.jpg" alt="">
+                     <div class="testy">
+                        <p>" Pertama kali saya dengar Lensly itu dari instagram, kemudian saya coba cek websitenya dan ternyata foto-foto disediakan dengan berbagai macam genre. Menurut saya, web ini menyediakan harga yang sangat terjangkau untuk mengubah kualitas fotonya. Lensly mantap!! "</p>
+                     </div>
+                </div>
+
+                <div class="card-testy">
+                    <img src="Testimony/Liuhuaying-Yang-500x500.jpg" alt="">
+                     <div class="testy">
+                        <p>" Lensly sangat membantu saya dalam mencari aset foto yang dapat digunakan untuk presentasi tugas kuliah dan video editing saya. Semoga kedepannya Lensly sukses terus.  "</p>
+                     </div>
+                </div>
+            
+             </div>
+            
+           
+
+
+        </div>
+       
+
+     </main>
+
+
+
+     <footer>
+        <div class="footer-desc">
+            <h1>Lensly</h1>
+            <p>Lensly is an open source website to help you find the best photo resolution up to 4k. We also provide access to nearest professional photgrapher for helping you capture best moment of your life. <br> <br>check our social media
+            </p>
+            <div class="icons">
+             <a href="https://www.instagram.com/lens.lyy?igsh=em53eXU2NXpieGNs&utm_source=qr" class="linkedin-icon" target="_blank">
+                <i class="bi bi-instagram"></i>
+               </a>
+            </div>
+          
+            
+        </div>
+        
+        <div class="footer-copyright">
+           <p>&copy; Group 2 | All Rights Reserved</p>
+        </div>
+   </footer>
+
+<script src="Home.js"></script>
+</body>
+</html>
